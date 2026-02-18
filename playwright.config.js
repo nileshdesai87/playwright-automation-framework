@@ -1,9 +1,8 @@
 // playwright.config.js
-const { defineConfig } = require('@playwright/test');
+import { defineConfig } from '@playwright/test';
 
-module.exports = defineConfig({
+export default defineConfig({
   testDir: './tests',
-
   timeout: 30000,
 
   retries: 0,
