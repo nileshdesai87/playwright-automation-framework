@@ -8,7 +8,7 @@ export default defineConfig({
   retries: 0,
 
   use: {
-    headless: false,
+    headless: true,
     baseURL: 'https://practicetestautomation.com',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
