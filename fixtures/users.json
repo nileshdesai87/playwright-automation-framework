@@ -1,4 +1,4 @@
 {
   "admin": {"username": "admin", "password": "Admin123"},
-  "user": {"username": "user1", "password": "User123"}
+  "user": {"username": "student", "password": "Password123"}
 }
