@@ -1,5 +1,4 @@
 import { test, expect } from '@playwright/test';
-const fetch = require('node-fetch');
 
 test('GET objects/7', async ({ request }) => {
 

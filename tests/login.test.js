@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-const LoginPage = require('../pages/loginPage').default;
+import LoginPage from '../pages/loginPage.js';
 
 test.describe('Login Tests', () => {
   let loginPage;
