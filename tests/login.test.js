@@ -6,11 +6,11 @@ test.describe('Login Tests', () => {
 
   test.beforeEach(async ({ page }) => {
     loginPage = new LoginPage(page);
-    await page.goto('https://example.com/login');
+    await page.goto('https://practicetestautomation.com/practice-test-login/');
   });
 
-  test('Valid login', async () => {
-    await loginPage.login('testuser', 'password123');
-    await expect(page).toHaveURL('https://example.com/dashboard');
+  test('Valid login', async ({ page }) => {
+    await loginPage.login('student', 'Password123');
+    await expect(page).toHaveURL('/logged-in-successfully/');
   });
 });
